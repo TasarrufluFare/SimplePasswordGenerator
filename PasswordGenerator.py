@@ -50,7 +50,7 @@ def usr_input_check(given_input):
                 given_command_list.append("1")
             else:
                 print("Something is wrong about given parameters")
-                print("Example usage: -create 1+2+3 15 25")
+                print("Example usage: -create 1+2+3 15 25 1")
                 exit()
 
         given_command = given_command_list[1]
@@ -72,23 +72,23 @@ def usr_input_check(given_input):
 
                     if not member_match:
                         print("Something is wrong about given parameters")
-                        print("Example usage: -create 1+2+3 15 25")
+                        print("Example usage: -create 1+2+3 15 25 1")
                         exit()
 
                 create_list(given_parameters_list, given_char_count_min, given_char_count_max, given_password_count)
             else:
                 print("Something is wrong about given parameters")
-                print("Example usage: -create 1+2+3 15 25")
+                print("Example usage: -create 1+2+3 15 25 1")
                 exit()
 
         except():
             print("Something is wrong about given parameters")
-            print("Example usage: -create 1+2+3 15 25")
+            print("Example usage: -create 1+2+3 15 25 1")
             exit()
 
     else:
         print("Something is wrong about given command")
-        print("Example usage: -create 1+2+3 15 25")
+        print("Example usage: -create 1+2+3 15 25 1")
 
 print("-----------Parameters-----------")
 print("1 - Contains Special Chars")
